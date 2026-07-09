@@ -25,7 +25,7 @@ a{
     font-family: inter;
     font-size: 16px;
 }
-li{
+.menu li{
     list-style: none;
 }
 .reg-btn{
@@ -112,9 +112,10 @@ li{
     text-align: center;
     font-family: inter;
     font-weight: bold;
-    font-size: 56px;
+    font-size: 54px;
     color: #000102;
-    margin: 40px 0;
+    margin-top: 60px;
+    margin-bottom: 45px;
 }
 .card{
     background-color: #FFFFFF;
@@ -147,4 +148,152 @@ img{
     color: #575757;
     font-family: inter;
     font-weight: 400;
+}
+
+/* Ticket Section style */
+.ticket-title{
+    text-align: center;
+    font-family: inter;
+    font-weight: bold;
+    font-size: 46px;
+    color: #000102;
+    margin-top: 100px;
+}
+.ticket-para{
+    text-align: center;
+    font-family: inter;
+    font-weight: 400;
+    font-size: 16px;
+    color: #575757;
+    margin: 10px;
+    padding-bottom: 26px
+}
+.ticket-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.ticket-card{
+    background-color: #FFFFFF;
+    border: 1px solid #e5e5e5;
+    border-radius: 10px;
+    padding: 22px 22px;
+    width: 300px;
+}
+.ticket-card-extra{
+    background-color: #0D1B2A;
+    border: 1px solid #e5e5e5;
+    border-radius: 10px;
+    padding: 22px 22px;
+    width: 300px;
+}
+.top-text{
+    line-height: 36px;
+    border-bottom: 1px solid #E5E7EB;
+    padding-bottom: 10px;
+}
+
+.top-text-extra{
+    line-height: 36px;
+    border-bottom: 1px solid #ffffff35;
+    padding-bottom: 10px;
+}
+
+.top-text p{
+    font-size: 12px;
+    font-family: inter;
+    font-weight: 600;
+    color: #888888;
+}
+.top-text h1{
+    font-size: 44px;
+    font-family: inter;
+    font-weight: bold;
+    color: #0D1B2A;
+}
+.top-text h5{
+    font-size: 12px;
+    font-family: inter;
+    font-weight: 400;
+    color: #888888;
+}
+.extra-price-name{
+    font-size: 12px;
+    font-family: inter;
+    font-weight: 600;
+    color: #93C5FD;
+}
+.extra-price{
+    font-size: 44px;
+    font-family: inter;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+.extra-p{
+    font-size: 12px;
+    font-family: inter;
+    font-weight: 400;
+    color: #ffffffc0;
+}
+.middle-text{
+    font-size: 14px;
+    font-family: inter;
+    font-weight: 400;
+    color: #333333;
+    line-height: 26px;
+    padding: 20px 10px;
+}
+.middle-text li::marker{
+    color: #2563EB;
+}
+.middle-text-extra{
+    color: #ffffffb4;
+}
+.bottom-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ticket-btn{
+    width: 100%;
+    padding: 12px 0;
+    border: 1px solid #2563EB;
+    border-radius: 8px;
+    font-family: inter;
+    font-size: 14px;
+    font-weight: 600;
+    background: none;
+    color: #2563EB;
+    
+}
+.ticket-btn:hover{
+    background-color: #2563EB;
+    color: #FFFFFF;
+    transition: 0.5s;
+}
+.ticket-btn-extra{
+    width: 100%;
+    padding: 12px 0;
+    border: none;
+    border-radius: 8px;
+    font-family: inter;
+    font-size: 14px;
+    font-weight: 600;
+    background-color: #2563EB;
+    color: #FFFFFF;
+}
+.ticket-btn-extra:hover{
+    background-color: #FFFFFF;
+    color: #2563EB;
+    transition: 0.5s;
+}
+.ticket-btn-last{
+    color: #0D1B2A;
+    border: 1px solid #0D1B2A;
+}
+.ticket-btn-last:hover{
+    border: none;
+    transition: 0.5s
 }
