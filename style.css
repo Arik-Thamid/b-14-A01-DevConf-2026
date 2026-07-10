@@ -40,6 +40,7 @@ a{
 }
 .reg-btn:hover{
     background-color: #0c3bbb;
+    transition: 0.4s;
 }
 
 /* Hero section style */
@@ -91,6 +92,7 @@ a{
 }
 .hero-btn:hover{
     background-color: #0c3bbb;
+    transition: 0.4s;
 }
 
 /* Speakers Section Style */
@@ -174,7 +176,6 @@ img{
     justify-content: center;
     gap: 30px;
 }
-
 .ticket-card{
     background-color: #FFFFFF;
     border: 1px solid #e5e5e5;
@@ -194,13 +195,11 @@ img{
     border-bottom: 1px solid #E5E7EB;
     padding-bottom: 10px;
 }
-
 .top-text-extra{
     line-height: 36px;
     border-bottom: 1px solid #ffffff35;
     padding-bottom: 10px;
 }
-
 .top-text p{
     font-size: 12px;
     font-family: inter;
@@ -296,4 +295,66 @@ img{
 .ticket-btn-last:hover{
     border: none;
     transition: 0.5s
+}
+
+
+
+/* Footer style */
+.footer{
+    max-width: 1200px;
+    margin-top: 100px;
+    padding: 30px;
+    background-color: #0D1B2A;
+}
+.footer-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-logo img{
+    width: 130px;
+    display: block;
+}
+.links {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 10px;
+}
+.social-links{
+    display: flex;
+    gap: 22px;
+}
+.social-links a{
+    text-decoration: none;
+    color: #374151;
+    font-size: 24px;
+}
+.social-links a:hover{
+    color: #2563EB;
+    transition: 0.4s;
+}
+.other-link{
+    font-size: 14px;
+    font-family: inter;
+    font-weight: 400;
+    color: #ffffff35;
+    display: flex;
+    margin-top: 20px;
+    gap: 20px;
+}
+.other-link a:hover{
+    text-decoration: underline;
+}
+.footer hr{
+    margin: 30px 0;
+    border: none;
+    border-bottom: 1px solid #ffffff35;
+}
+.copyright{
+    text-align: center;
+    font-size: 16px;
+    font-family: inter;
+    font-weight: 400;
+    color: #ffffff35;
 }
