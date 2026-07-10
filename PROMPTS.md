@@ -1,3 +1,3 @@
 #AI CHALLENGE PROMPT
 
-Create a clean, responsive "Open Source Challenge Zone" section for a DevConf 2026 landing page using only HTML5 and CSS3. Include a centered heading, short description, and three modern challenge cards with an icon, title, difficulty, duration, prize, and a "Join Now" button. Use a minimal white-and-blue design, rounded corners, semantic HTML, and beginner-friendly code. Do not use JavaScript, Bootstrap, or Tailwind CSS.
+Create a clean, responsive "Open Source Challenge Zone" section for a DevConf 2026 landing page using only HTML5 and CSS3. Include a centered heading, short description and three modern challenge cards with an icon, title, difficulty, duration, prize, and a "Join Now" button. Use a minimal white-and-blue design, rounded corners, semantic HTML, and beginner-friendly code. Do not use JavaScript, Bootstrap, or Tailwind CSS.
